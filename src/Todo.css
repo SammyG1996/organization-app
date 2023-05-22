@@ -1,0 +1,6 @@
+.todo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4vh;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
