@@ -25,12 +25,12 @@ function TodoList(){
 
 
     return(
-        <>
+        <div>
             <NewTodoForm handleSetTodos={handleSetTodos} />
             {todos.map((todo) => { 
                 return <Todo data={todo.data} id={todo.id} key={todo.id} handleDeleteTodos={handleDeleteTodos} /> 
             })}
-        </>
+        </div>
     )
 }
 

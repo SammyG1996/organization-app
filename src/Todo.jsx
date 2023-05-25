@@ -12,9 +12,9 @@ function Todo({data, id, handleDeleteTodos}){
     }
 
     return (
-        <div className='todo'>
-            <IconButton aria-label="delete" size="small" onClick={handleDelete}> <DeleteIcon /> </IconButton>
-            <p>{data}</p>
+        <div className='todo flex content-center'>
+                <IconButton sx={{width: 40, height: 40, marginTop: '19px'}} aria-label="delete" size="small" onClick={handleDelete}> <DeleteIcon /> </IconButton>
+                <p>{data}</p> 
         </div>
     )
 }
